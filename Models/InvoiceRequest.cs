@@ -11,7 +11,7 @@ namespace WebApplication1.Models
         public long TurfId { get; set; }
 
         [JsonPropertyName("paymentMethod")]
-        public string PaymentMethod { get; set; }
+        public required string PaymentMethod { get; set; }
 
         [JsonPropertyName("amountPaid")]
         public double AmountPaid { get; set; }
